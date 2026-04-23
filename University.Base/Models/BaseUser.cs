@@ -4,6 +4,7 @@ namespace University.Base.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public int Age  = 18;
 
         public virtual string GetRole()
         {
